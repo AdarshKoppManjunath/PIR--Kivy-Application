@@ -31,6 +31,7 @@ Af of now supported produce items are listed below wirth the labels being used
 We have a seperate labels.txt file for future maintainace where we need to be keep udating our produce items"""
 
 
+"""Import all the required libraries"""
 import kivy
 from kivy.app import App
 from kivy.lang import Builder
@@ -47,6 +48,8 @@ from kivy.utils import platform
 import time
 import json
 
+
+"""Layout with open camera and capture image buttons"""
 
 Builder.load_string('''
 <CameraClick>:
@@ -80,6 +83,7 @@ class CameraClick(BoxLayout):
         self._request_android_permissions()
         self.label1=""
 
+
     @staticmethod
     def is_android():
         return platform == 'android'
@@ -93,6 +97,8 @@ class CameraClick(BoxLayout):
         from android.permissions import request_permission, Permission
         request_permission(Permission.CAMERA)
 
+
+
     def capture(self):
         '''
         Function to capture the images and give maintain same name such that it overwrite previously captured image
@@ -103,6 +109,11 @@ class CameraClick(BoxLayout):
         camera.export_to_png("image/IMG.png")
         print("Captured")
         self.ids['camera'].play = False
+        self.predict()
+
+    def predict(self):
+
+        """This method is to load label files and image captured, and finally predict the captured image"""
 
        #Image labels and calling predict function for running inference
         
