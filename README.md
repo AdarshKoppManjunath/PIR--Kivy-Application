@@ -1,4 +1,4 @@
-# PIR--Kivy-Application
+Image Recognition With Kivy 
  
  <b> Kivy Application</b><br>
 
