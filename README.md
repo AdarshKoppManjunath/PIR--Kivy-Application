@@ -1,4 +1,4 @@
-Image Recognition With Kivy 
+#Image Recognition With Kivy 
  
  <b> Kivy Application</b><br>
 
