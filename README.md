@@ -22,7 +22,7 @@ Navigate to <b><i>cd PIR--Kivy-Application</i></b><br>
 Execute <b></i>python main.py</i></b><br>
   
  
-<b>4) Screenshots</b><br><br>
+<b>Screenshots</b><br><br>
 
 <b> Open Camera </b>
   
