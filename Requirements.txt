@@ -71,7 +71,7 @@ protobuf==3.11.4
 pyasn1==0.4.8
 pyasn1-modules==0.2.7
 pycparser==2.20
-Pygments==2.6.1
+Pygments==2.7.4
 PyInstaller==4.0.dev0+cd3d80532f
 PyJWT==1.7.1
 pyOpenSSL==19.1.0
