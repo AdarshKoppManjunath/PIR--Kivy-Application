@@ -44,8 +44,3 @@ Execute <b></i>python main.py</i></b><br>
 
 
 
-
-<br><br>
-<b>Contact Information:</b><br>
-Name: Adarsh Koppa Manjunath<br>
-Email: adarshakmkmanjunath@gmail.com
